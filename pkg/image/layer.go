@@ -11,9 +11,9 @@ import (
 
 	v1 "github.com/google/go-containerregistry/pkg/v1"
 	"github.com/google/go-containerregistry/pkg/v1/types"
-	"github.com/sylabs/squashfs"
 	"github.com/sulaiman-coder/goeventbus"
 	"github.com/sulaiman-coder/goprogress"
+	"github.com/sylabs/squashfs"
 
 	"github.com/khulnasoft-labs/goscope/internal/bus"
 	"github.com/khulnasoft-labs/goscope/internal/log"
