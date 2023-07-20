@@ -3,7 +3,7 @@ package credhelpers
 import (
 	ecr "github.com/awslabs/amazon-ecr-credential-helper/ecr-login"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
 )
 
 type ECRHelper struct {

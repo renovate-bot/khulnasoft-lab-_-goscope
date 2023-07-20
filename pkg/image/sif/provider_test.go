@@ -8,8 +8,8 @@ import (
 
 	"github.com/sylabs/sif/v2/pkg/sif"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
 )
 
 func TestSingularityImageProvider_Provide(t *testing.T) {

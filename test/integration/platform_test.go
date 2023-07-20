@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/khulnasoft-goscope/goscope"
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
 )
 
 func TestPlatformSelection(t *testing.T) {

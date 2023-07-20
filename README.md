@@ -1,8 +1,8 @@
 # goscope
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-goscope/goscope)](https://goreportcard.com/report/github.com/khulnasoft-goscope/goscope)
-[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/khulnasoft-goscope/goscope.svg)](https://github.com/khulnasoft-goscope/goscope)
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/khulnasoft-goscope/goscope/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-labs/goscope)](https://goreportcard.com/report/github.com/khulnasoft-labs/goscope)
+[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/khulnasoft-labs/goscope.svg)](https://github.com/khulnasoft-labs/goscope)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/khulnasoft-labs/goscope/blob/main/LICENSE)
 [![Slack Invite](https://img.shields.io/badge/Slack-Join-blue?logo=slack)](https://anchore.com/slack)
 
 A library for working with container image contents, layer file trees, and squashed file trees.

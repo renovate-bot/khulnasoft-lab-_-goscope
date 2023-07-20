@@ -6,8 +6,8 @@ import (
 
 	"github.com/google/go-containerregistry/pkg/v1/layout"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
 )
 
 // DirectoryImageProvider is an image.Provider for an OCI image (V1) for an existing tar on disk (from a buildah push <img> oci:<img> command).

@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree"
 )
 
 type FileCatalogReader interface {

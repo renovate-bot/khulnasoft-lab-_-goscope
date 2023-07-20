@@ -8,9 +8,9 @@ import (
 	v1 "github.com/google/go-containerregistry/pkg/v1"
 	"github.com/google/go-containerregistry/pkg/v1/tarball"
 
-	"github.com/khulnasoft-goscope/goscope/internal/log"
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/internal/log"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
 )
 
 var ErrMultipleManifests = fmt.Errorf("cannot process multiple docker manifests")

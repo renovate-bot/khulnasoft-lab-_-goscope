@@ -7,10 +7,10 @@ import (
 
 	"github.com/bmatcuk/doublestar/v4"
 
-	"github.com/khulnasoft-goscope/goscope/internal/log"
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree/filenode"
-	"github.com/khulnasoft-goscope/goscope/pkg/tree/node"
+	"github.com/khulnasoft-labs/goscope/internal/log"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree/filenode"
+	"github.com/khulnasoft-labs/goscope/pkg/tree/node"
 )
 
 // Searcher is a facade for searching a file tree with optional indexing support.

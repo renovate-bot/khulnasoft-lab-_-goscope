@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
 )
 
 func Test_NewProviderFromTarball(t *testing.T) {

@@ -1,8 +1,8 @@
 package filetree
 
 import (
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree/filenode"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree/filenode"
 )
 
 // nodeAccess represents a request into the tree for a specific path and the resulting node, which may have a different path.

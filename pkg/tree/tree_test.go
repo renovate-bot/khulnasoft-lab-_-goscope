@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/tree/node"
+	"github.com/khulnasoft-labs/goscope/pkg/tree/node"
 )
 
 type testNode struct {

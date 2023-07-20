@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree"
 )
 
 // fetchReaderByPath is a common helper function for resolving the file contents for a path from the file

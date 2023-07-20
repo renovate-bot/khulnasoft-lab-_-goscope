@@ -7,8 +7,8 @@ import (
 	"github.com/scylladb/go-set/strset"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/khulnasoft-goscope/goscope"
-	"github.com/khulnasoft-goscope/goscope/pkg/imagetest"
+	"github.com/khulnasoft-labs/goscope"
+	"github.com/khulnasoft-labs/goscope/pkg/imagetest"
 )
 
 func TestContentMIMETypeDetection(t *testing.T) {

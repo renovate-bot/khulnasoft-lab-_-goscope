@@ -127,7 +127,7 @@ func TestImage_SquashedTree(t *testing.T) {
 			}
 		}()
 
-		// Asserting that this call doesn't panic (regression: https://github.com/khulnasoft-goscope/goscope/issues/56)
+		// Asserting that this call doesn't panic (regression: https://github.com/khulnasoft-labs/goscope/issues/56)
 		result := i.SquashedTree()
 
 		if result == nil {

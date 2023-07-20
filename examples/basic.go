@@ -8,9 +8,9 @@ import (
 
 	"github.com/khulnasoft-labs/go-logger"
 	"github.com/khulnasoft-labs/go-logger/adapter/logrus"
-	"github.com/khulnasoft-goscope/goscope"
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree/filenode"
+	"github.com/khulnasoft-labs/goscope"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree/filenode"
 )
 
 func main() {

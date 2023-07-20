@@ -17,7 +17,7 @@ import (
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/knownhosts"
 
-	"github.com/khulnasoft-goscope/goscope/internal/log"
+	"github.com/khulnasoft-labs/goscope/internal/log"
 )
 
 type sshClientConfig struct {

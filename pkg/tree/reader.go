@@ -1,7 +1,7 @@
 package tree
 
 import (
-	"github.com/khulnasoft-goscope/goscope/pkg/tree/node"
+	"github.com/khulnasoft-labs/goscope/pkg/tree/node"
 )
 
 type Reader interface {

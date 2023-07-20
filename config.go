@@ -1,7 +1,7 @@
 package goscope
 
 import (
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
 )
 
 type config struct {

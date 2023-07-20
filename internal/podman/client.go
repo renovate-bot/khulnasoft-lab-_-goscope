@@ -9,7 +9,7 @@ import (
 	"github.com/docker/docker/client"
 	"github.com/pkg/errors"
 
-	"github.com/khulnasoft-goscope/goscope/internal/log"
+	"github.com/khulnasoft-labs/goscope/internal/log"
 )
 
 var (

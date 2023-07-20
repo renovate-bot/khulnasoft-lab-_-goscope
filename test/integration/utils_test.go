@@ -3,10 +3,10 @@ package integration
 import (
 	"testing"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree/filenode"
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree/filenode"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
 )
 
 func compareLayerSquashTrees(t *testing.T, expected map[uint]filetree.Reader, i *image.Image, ignorePaths []file.Path) {

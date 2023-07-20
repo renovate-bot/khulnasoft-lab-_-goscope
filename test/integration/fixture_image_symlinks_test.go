@@ -11,10 +11,10 @@ import (
 	"github.com/scylladb/go-set"
 	"github.com/stretchr/testify/require"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree"
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
-	"github.com/khulnasoft-goscope/goscope/pkg/imagetest"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/pkg/imagetest"
 )
 
 type linkFetchConfig struct {

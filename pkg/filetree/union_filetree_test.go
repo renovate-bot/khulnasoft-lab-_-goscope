@@ -3,7 +3,7 @@ package filetree
 import (
 	"testing"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
 )
 
 func TestUnionFileTree_Squash(t *testing.T) {

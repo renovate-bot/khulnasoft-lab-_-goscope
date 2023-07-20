@@ -6,9 +6,9 @@ import (
 	"github.com/sulaiman-coder/goeventbus"
 	"github.com/sulaiman-coder/goprogress"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/event"
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
-	"github.com/khulnasoft-goscope/goscope/pkg/image/docker"
+	"github.com/khulnasoft-labs/goscope/pkg/event"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/pkg/image/docker"
 )
 
 type ErrBadPayload struct {

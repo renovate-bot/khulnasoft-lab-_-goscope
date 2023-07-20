@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-test/deep"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree/filenode"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree/filenode"
 )
 
 func TestFileInfoAdapter(t *testing.T) {

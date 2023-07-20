@@ -1,4 +1,4 @@
-module github.com/khulnasoft-goscope/goscope
+module github.com/khulnasoft-labs/goscope
 
 go 1.19
 

@@ -22,11 +22,11 @@ import (
 	"github.com/sulaiman-coder/goeventbus"
 	"github.com/sulaiman-coder/goprogress"
 
-	"github.com/khulnasoft-goscope/goscope/internal/bus"
-	"github.com/khulnasoft-goscope/goscope/internal/log"
-	"github.com/khulnasoft-goscope/goscope/pkg/event"
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/internal/bus"
+	"github.com/khulnasoft-labs/goscope/internal/log"
+	"github.com/khulnasoft-labs/goscope/pkg/event"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
 )
 
 // DaemonImageProvider is a image.Provider capable of fetching and representing a docker image from the docker daemon API.

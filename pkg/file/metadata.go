@@ -11,7 +11,7 @@ import (
 
 	"github.com/sylabs/squashfs"
 
-	"github.com/khulnasoft-goscope/goscope/internal/log"
+	"github.com/khulnasoft-labs/goscope/internal/log"
 )
 
 var _ fs.FileInfo = (*ManualInfo)(nil)

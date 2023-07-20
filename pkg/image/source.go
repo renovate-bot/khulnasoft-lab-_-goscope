@@ -15,9 +15,9 @@ import (
 	"github.com/spf13/afero"
 	"github.com/sylabs/sif/v2/pkg/sif"
 
-	"github.com/khulnasoft-goscope/goscope/internal/docker"
-	"github.com/khulnasoft-goscope/goscope/internal/podman"
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/internal/docker"
+	"github.com/khulnasoft-labs/goscope/internal/podman"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
 )
 
 const (

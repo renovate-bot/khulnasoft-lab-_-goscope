@@ -3,7 +3,7 @@ package tree
 import (
 	"testing"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/tree/node"
+	"github.com/khulnasoft-labs/goscope/pkg/tree/node"
 )
 
 func dfsTestTree() *Tree {

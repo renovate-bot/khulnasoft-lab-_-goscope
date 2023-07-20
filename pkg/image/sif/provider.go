@@ -5,8 +5,8 @@ import (
 
 	"github.com/google/go-containerregistry/pkg/v1/partial"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
 )
 
 // SingularityImageProvider is an image.Provider for a Singularity Image Format (SIF) image.

@@ -3,7 +3,7 @@ package tree
 import (
 	"fmt"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/tree/node"
+	"github.com/khulnasoft-labs/goscope/pkg/tree/node"
 )
 
 // Tree represents a simple Tree data structure.

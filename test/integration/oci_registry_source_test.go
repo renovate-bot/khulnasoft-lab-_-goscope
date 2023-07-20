@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/khulnasoft-goscope/goscope"
+	"github.com/khulnasoft-labs/goscope"
 )
 
 func TestOciRegistrySourceMetadata(t *testing.T) {

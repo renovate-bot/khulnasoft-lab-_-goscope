@@ -13,11 +13,11 @@ import (
 	"github.com/sulaiman-coder/goeventbus"
 	"github.com/sulaiman-coder/goprogress"
 
-	"github.com/khulnasoft-goscope/goscope/internal/bus"
-	"github.com/khulnasoft-goscope/goscope/internal/log"
-	"github.com/khulnasoft-goscope/goscope/pkg/event"
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree"
+	"github.com/khulnasoft-labs/goscope/internal/bus"
+	"github.com/khulnasoft-labs/goscope/internal/log"
+	"github.com/khulnasoft-labs/goscope/pkg/event"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree"
 )
 
 // Image represents a container image.

@@ -8,15 +8,15 @@ import (
 	"github.com/sulaiman-coder/goeventbus"
 
 	"github.com/khulnasoft-labs/go-logger"
-	"github.com/khulnasoft-goscope/goscope/internal/bus"
-	dockerClient "github.com/khulnasoft-goscope/goscope/internal/docker"
-	"github.com/khulnasoft-goscope/goscope/internal/log"
-	"github.com/khulnasoft-goscope/goscope/internal/podman"
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
-	"github.com/khulnasoft-goscope/goscope/pkg/image/docker"
-	"github.com/khulnasoft-goscope/goscope/pkg/image/oci"
-	"github.com/khulnasoft-goscope/goscope/pkg/image/sif"
+	"github.com/khulnasoft-labs/goscope/internal/bus"
+	dockerClient "github.com/khulnasoft-labs/goscope/internal/docker"
+	"github.com/khulnasoft-labs/goscope/internal/log"
+	"github.com/khulnasoft-labs/goscope/internal/podman"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/pkg/image/docker"
+	"github.com/khulnasoft-labs/goscope/pkg/image/oci"
+	"github.com/khulnasoft-labs/goscope/pkg/image/sif"
 )
 
 var rootTempDirGenerator = file.NewTempDirGenerator("goscope")

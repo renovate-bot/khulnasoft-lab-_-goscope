@@ -3,9 +3,9 @@ package integration
 import (
 	"testing"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree"
-	"github.com/khulnasoft-goscope/goscope/pkg/imagetest"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree"
+	"github.com/khulnasoft-labs/goscope/pkg/imagetest"
 )
 
 func TestImage_SquashedTree_OpaqueDirectoryExistsInFileCatalog(t *testing.T) {

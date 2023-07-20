@@ -1,6 +1,6 @@
 package credhelpers
 
-import "github.com/khulnasoft-goscope/goscope/pkg/image"
+import "github.com/khulnasoft-labs/goscope/pkg/image"
 
 type CredentialHelper interface {
 	GetRegistryCredentials() (*image.RegistryCredentials, error)

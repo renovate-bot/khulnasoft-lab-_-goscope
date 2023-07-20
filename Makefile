@@ -130,7 +130,7 @@ check-go-mod-tidy:
 .PHONY: unit
 unit: $(TEMP_DIR) ## Run unit tests (with coverage)
 	$(call title,Running unit tests)
-	go test -coverprofile $(TEMP_DIR)/unit-coverage-details.txt $(shell go list ./... | grep -v khulnasoft-goscope/goscope/test)
+	go test -coverprofile $(TEMP_DIR)/unit-coverage-details.txt $(shell go list ./... | grep -v khulnasoft-labs/goscope/test)
 	@.github/scripts/coverage.py $(COVERAGE_THRESHOLD) $(TEMP_DIR)/unit-coverage-details.txt
 
 

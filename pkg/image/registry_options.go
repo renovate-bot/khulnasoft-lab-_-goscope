@@ -3,7 +3,7 @@ package image
 import (
 	"github.com/google/go-containerregistry/pkg/authn"
 
-	"github.com/khulnasoft-goscope/goscope/internal/log"
+	"github.com/khulnasoft-labs/goscope/internal/log"
 )
 
 // RegistryOptions for the OCI registry provider.

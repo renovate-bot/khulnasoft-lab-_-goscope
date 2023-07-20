@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree/filenode"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree/filenode"
 )
 
 // prevent link cycles for paths that are self-referential (e.g. /home/wagoodman -> /home, which resolves

@@ -11,10 +11,10 @@ import (
 	"github.com/scylladb/go-set/iset"
 	"github.com/scylladb/go-set/strset"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
-	"github.com/khulnasoft-goscope/goscope/pkg/filetree/filenode"
-	"github.com/khulnasoft-goscope/goscope/pkg/tree"
-	"github.com/khulnasoft-goscope/goscope/pkg/tree/node"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/filetree/filenode"
+	"github.com/khulnasoft-labs/goscope/pkg/tree"
+	"github.com/khulnasoft-labs/goscope/pkg/tree/node"
 )
 
 var ErrRemovingRoot = errors.New("cannot remove the root path (`/`) from the FileTree")

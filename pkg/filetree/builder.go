@@ -3,7 +3,7 @@ package filetree
 import (
 	"fmt"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
 )
 
 // Builder is a helper for building a filetree and accompanying index in a coordinated fashion.

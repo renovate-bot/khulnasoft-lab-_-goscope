@@ -11,8 +11,8 @@ import (
 	"github.com/becheran/wildmatch-go"
 	"github.com/scylladb/go-set/strset"
 
-	"github.com/khulnasoft-goscope/goscope/internal/log"
-	"github.com/khulnasoft-goscope/goscope/pkg/file"
+	"github.com/khulnasoft-labs/goscope/internal/log"
+	"github.com/khulnasoft-labs/goscope/pkg/file"
 )
 
 type Index interface {

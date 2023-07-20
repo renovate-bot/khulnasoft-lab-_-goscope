@@ -12,7 +12,7 @@ import (
 	"github.com/google/go-containerregistry/pkg/v1/types"
 	"github.com/sylabs/sif/v2/pkg/sif"
 
-	"github.com/khulnasoft-goscope/goscope/pkg/image"
+	"github.com/khulnasoft-labs/goscope/pkg/image"
 )
 
 const SingularityMediaType = "application/vnd.sylabs.sif.layer.v1.sif"
