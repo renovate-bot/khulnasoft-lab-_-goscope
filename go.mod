@@ -1,6 +1,6 @@
 module github.com/khulnasoft-labs/goscope
 
-go 1.19
+go 1.18
 
 require (
 	github.com/GoogleCloudPlatform/docker-credential-gcr v2.0.5+incompatible
