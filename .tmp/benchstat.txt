@@ -1,0 +1,42 @@
+latest: Pulling from library/ubuntu
+tar: Option --mtime: Treating date 'UTC 2019-09-16' as 2019-09-16 00:00:00
+goos: linux
+goarch: amd64
+pkg: github.com/khulnasoft-labs/goscope/pkg/file
+cpu: Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz
+           │ ./.tmp/benchmark-e9e46fd.txt │
+           │            sec/op            │
+TarIndex-2                   60.57µ ± ∞ ¹
+¹ need >= 6 samples for confidence interval at level 0.95
+
+           │ ./.tmp/benchmark-e9e46fd.txt │
+           │             B/op             │
+TarIndex-2                  5.559Ki ± ∞ ¹
+¹ need >= 6 samples for confidence interval at level 0.95
+
+           │ ./.tmp/benchmark-e9e46fd.txt │
+           │          allocs/op           │
+TarIndex-2                    93.00 ± ∞ ¹
+¹ need >= 6 samples for confidence interval at level 0.95
+
+pkg: github.com/khulnasoft-labs/goscope/test/integration
+                                                   │ ./.tmp/benchmark-e9e46fd.txt │
+                                                   │            sec/op            │
+SimpleImage_GetImage/docker-archive-2                                1.560m ± ∞ ¹
+SimpleImage_FetchSquashedContents/docker-archive-2                   27.59µ ± ∞ ¹
+geomean                                                              207.5µ
+¹ need >= 6 samples for confidence interval at level 0.95
+
+                                                   │ ./.tmp/benchmark-e9e46fd.txt │
+                                                   │             B/op             │
+SimpleImage_GetImage/docker-archive-2                               323.9Ki ± ∞ ¹
+SimpleImage_FetchSquashedContents/docker-archive-2                  2.648Ki ± ∞ ¹
+geomean                                                             29.29Ki
+¹ need >= 6 samples for confidence interval at level 0.95
+
+                                                   │ ./.tmp/benchmark-e9e46fd.txt │
+                                                   │          allocs/op           │
+SimpleImage_GetImage/docker-archive-2                                2.621k ± ∞ ¹
+SimpleImage_FetchSquashedContents/docker-archive-2                    21.00 ± ∞ ¹
+geomean                                                               234.6
+¹ need >= 6 samples for confidence interval at level 0.95
