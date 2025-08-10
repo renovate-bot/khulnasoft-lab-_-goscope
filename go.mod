@@ -1,6 +1,8 @@
 module github.com/khulnasoft-labs/goscope
 
-go 1.18
+go 1.21
+
+toolchain go1.24.6
 
 require (
 	github.com/GoogleCloudPlatform/docker-credential-gcr v2.0.5+incompatible
@@ -12,7 +14,7 @@ require (
 	github.com/docker/docker v20.10.24+incompatible
 	github.com/gabriel-vasile/mimetype v1.4.0
 	github.com/go-test/deep v1.0.8
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.7.0
 	github.com/google/go-containerregistry v0.13.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/logrusorgru/aurora v2.0.3+incompatible
