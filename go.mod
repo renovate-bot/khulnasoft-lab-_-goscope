@@ -1,10 +1,12 @@
 module github.com/khulnasoft-labs/goscope
 
-go 1.18
+go 1.23
+
+toolchain go1.24.6
 
 require (
 	github.com/GoogleCloudPlatform/docker-credential-gcr v2.0.5+incompatible
-	github.com/awslabs/amazon-ecr-credential-helper/ecr-login v0.0.0-20220517224237-e6f29200ae04
+	github.com/awslabs/amazon-ecr-credential-helper/ecr-login v0.10.1
 	github.com/becheran/wildmatch-go v1.0.0
 	github.com/bmatcuk/doublestar/v4 v4.0.2
 	github.com/containerd/containerd v1.7.0
@@ -23,7 +25,7 @@ require (
 	github.com/scylladb/go-set v1.0.3-0.20200225121959-cc7b2070d91e
 	github.com/sergi/go-diff v1.2.0
 	github.com/spf13/afero v1.6.0
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.10.0
 	github.com/sylabs/sif/v2 v2.8.1
 	github.com/sylabs/squashfs v0.6.1
 	golang.org/x/crypto v0.1.0
@@ -31,22 +33,22 @@ require (
 
 require (
 	github.com/Microsoft/go-winio v0.6.0 // indirect
-	github.com/aws/aws-sdk-go-v2 v1.7.1 // indirect
-	github.com/aws/aws-sdk-go-v2/config v1.5.0 // indirect
-	github.com/aws/aws-sdk-go-v2/credentials v1.3.1 // indirect
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.3.0 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/ini v1.1.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ecr v1.4.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.4.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.2.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sso v1.3.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sts v1.6.0 // indirect
-	github.com/aws/smithy-go v1.6.0 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.36.5 // indirect
+	github.com/aws/aws-sdk-go-v2/config v1.29.17 // indirect
+	github.com/aws/aws-sdk-go-v2/credentials v1.17.70 // indirect
+	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.32 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.3 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ecr v1.45.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.33.2 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.17 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sso v1.25.5 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sts v1.34.0 // indirect
+	github.com/aws/smithy-go v1.22.4 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.12.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	// docker/distribution for https://github.com/advisories/GHSA-qq97-vm5h-rrhg
 	github.com/docker/distribution v2.8.2+incompatible // indirect
-	github.com/docker/docker-credential-helpers v0.7.0 // indirect
+	github.com/docker/docker-credential-helpers v0.9.3 // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
@@ -63,14 +65,14 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.15 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
-	github.com/stretchr/objx v0.5.0 // indirect
+	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/therootcompany/xz v1.0.1 // indirect
 	github.com/ulikunitz/xz v0.5.10 // indirect
 	github.com/vbatts/tar-split v0.11.2 // indirect
 	golang.org/x/net v0.9.0 // indirect
 	golang.org/x/oauth2 v0.6.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/sys v0.10.0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
 	golang.org/x/term v0.10.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
@@ -90,6 +92,10 @@ require (
 require (
 	cloud.google.com/go/compute v1.19.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.36 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.36 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.12.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.30.3 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/kr/pretty v0.2.1 // indirect
 	golang.org/x/mod v0.10.0 // indirect
